@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/section__Register.css">
+    <link rel="stylesheet" type="text/css" href="../styles/reset.css">
+
+    <title>Cadastrar</title>
+</head>
+<body>
+    <section class="Container">
+        <h1 class="Container__title">Cadastrar</h1>
+
+        <form method="post" action="../php/register.php">
+
+        <div class="Container__inputs">
+            <div class="Container__input">
+                <input type="text" name="txtNome" class="Container__input-text" placeholder="Seu nome">
+                <img class="Container__input-image" alt="icone de usuario" src="../img/icon_user.svg">
+            </div>
+
+            <div class="Container__input">
+                <input type="text" name="txtEmail" class="Container__input-text" placeholder="Seu email">
+                <img class="Container__input-image" alt="icone de email" src="../img/icon_email.svg">
+            </div>
+
+            <div class="Container__input">
+                <input type="text" name="txtSenha" class="Container__input-text" placeholder="Sua Senha">
+                <img class="Container__input-image" alt="icone de um olho" src="../img/icon_eye.svg">
+            </div>
+
+            <div class="Container__input">
+                <input type="password" name="txtSenha2" class="Container__input-text" placeholder="Confirme sua Senha">
+                <img class="Container__input-image" alt="icone de um olho" src="../img/icon_eye.svg">
+            </div>
+        </div>
+
+        <button type="submit" class="Container__botao">Cadastrar</button>
+
+        </form>
+
+        <p class="Container__Paragraph">Ja tem uma conta? <a class="Container__href" href="Login.html">Login</a></p>
+    </section>
+</body>
+</html>

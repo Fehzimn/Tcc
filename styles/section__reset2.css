@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body {
+    background: var(--Linear, linear-gradient(90deg, #FC7518 0%, #B2042D 100%));
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.Container {
+    background-color: rgba(0, 0, 0, 0.40);
+    border: var(--branco) solid 3px;
+    border-radius: 14px;
+    padding: 0.75em 3em 1.5em 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    overflow: hidden;
+}
+
+.Container__title {
+    font-family: "Lexend", sans-serif;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.Container__input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(217, 217, 217, 0.10);
+    border: var(--branco) solid 3px;
+    border-radius: 100px;
+    padding: 0.5em; 
+    box-sizing: border-box; 
+}
+
+.Container__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Container__input-text {
+    background: none;
+    border: 0;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.Container__input-text::placeholder {
+    font-family: "Lexend", sans-serif;
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+.Container__checkbox{
+    display: flex; 
+    margin-top: 10px;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Lexend", sans-serif;
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 0.75rem;
+
+}
+
+.Container__checkbox div{
+    display: flex;
+    align-items: center;
+}
+
+.Container__botao {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 100px;
+    background-color: white;
+    width: 100%; 
+    height: 40px; 
+    font-size: 1.05rem;
+    position: relative;
+    color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Container__botao::before {
+    content: "Registrar";
+    position: absolute;
+    background: linear-gradient(90deg, #FC7518 0%, #B2042D 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+.Container__Paragraph {
+    font-family: "Lexend", sans-serif;
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 0.75rem;    
+    padding: 0 3em 1em 3em;
+}
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/section__Login.css">
+    <link rel="stylesheet" type="text/css" href="../styles/reset.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <section class="Container">
+        <h1 class="Container__title">Login</h1>
+
+        <form method="post" action="../php/autentica.php">
+
+        <div class="Container__inputs">
+            <div class="Container__input">
+                <input type="text" name="txtEmailLogin"  class="Container__input-text" placeholder="Seu email">
+                <img class="Container__input-image" alt="icone de email" src="../img/icon_email.svg">
+            </div>
+            <div class="Container__input">
+                <input type="text" name="txtSenhaLogin" class="Container__input-text" placeholder="Sua Senha">
+                <img class="Container__input-image" alt="icone de um olho" src="../img/icon_eye.svg">
+            </div>
+        </div>
+
+            <div class="Container__checkbox">
+                <div>
+                    <input type="checkbox" id="caixinha" value="caixinha">
+                    <label for="vehicle1" >Lembra de mim?</label>
+                </div>
+                <a class="Container__Paragraph Container__href" href="ResetPassword.html">Esqueceu sua senha?</a>
+            </div>
+                 
+            <button type="submit" class="Container__botao">Login</button>
+
+          </form>
+
+        <p class="Container__Paragraph">Não tem uma conta? <a href="Register.html" class="Container__href">Registrar</a></p>
+    </section>
+</body>
+</html>

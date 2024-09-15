@@ -1,0 +1,20 @@
+@import url(styles/header.css);
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+:root{
+
+    --cor-fundo: #171717 ;
+    --cor-escura:#101010;
+    --branco: #FFFFFF;
+    --cinza: #C1C1C1;
+    --laranja: #FB6600;
+    --vermelho: #B2042D;
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}

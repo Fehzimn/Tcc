@@ -1,0 +1,24 @@
+<svg width="108" height="108" viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon s">
+<circle id="Ellipse 1" cx="54" cy="54" r="54" fill="white" fill-opacity="0.7"/>
+<g id="&#240;&#159;&#166;&#134; icon &#34;fingerprint circled&#34;">
+<path id="Vector" d="M37.9121 66.8682V51.9461C37.9121 50.3064 38.2346 48.732 38.8274 47.2691M70.0823 66.8682V56.6233M45.061 40.2778C47.6169 38.7854 50.6904 37.915 53.9972 37.915C61.3304 37.915 67.5174 42.1957 69.4537 48.0487" stroke="url(#paint0_linear_63_159)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M47.5645 70.0851V63.0832M60.4325 70.0851V53.5267C60.4325 50.2348 57.552 47.5659 53.9985 47.5659C50.445 47.5659 47.5645 50.2348 47.5645 53.5267V56.0817" stroke="url(#paint1_linear_63_159)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M53.9983 86.1705C71.7653 86.1705 86.1686 71.7673 86.1686 54.0003C86.1686 36.2332 71.7653 21.8301 53.9983 21.8301C36.2312 21.8301 21.8281 36.2332 21.8281 54.0003C21.8281 71.7673 36.2312 86.1705 53.9983 86.1705Z" stroke="url(#paint2_linear_63_159)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_63_159" x1="37.9121" y1="52.3916" x2="70.0823" y2="52.3916" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FC7518"/>
+<stop offset="1" stop-color="#B2042D"/>
+</linearGradient>
+<linearGradient id="paint1_linear_63_159" x1="47.5645" y1="58.8255" x2="60.4325" y2="58.8255" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FC7518"/>
+<stop offset="1" stop-color="#B2042D"/>
+</linearGradient>
+<linearGradient id="paint2_linear_63_159" x1="21.8281" y1="54.0003" x2="86.1686" y2="54.0003" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FC7518"/>
+<stop offset="1" stop-color="#B2042D"/>
+</linearGradient>
+</defs>
+</svg>
